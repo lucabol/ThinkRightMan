@@ -24,6 +24,7 @@ namespace ThinkRightMan
         static string[] _messages = File.ReadAllLines("Messages.txt");
         static int _lenght = _messages.Length;
         static int _count = 0;
+        static int _moveCount = 0;
 
         public MainWindow()
         {
@@ -34,6 +35,8 @@ namespace ThinkRightMan
         private void ShowMessage()
         {
             this.Message.Text = _messages[_count];
+            if (_count == 0) _moveCount++;
+            this.Title = $"Move: {_moveCount}";
             _count = (_count + 1) % _lenght;
         }
         private void Done_Click(object sender, RoutedEventArgs e)
