@@ -1,0 +1,15 @@
+﻿<Window x:Class="ThinkRightMan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThinkRightMan"
+        mc:Ignorable="d" Height="167.268" Width="380.418" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Button x:Name="Done" Content="Done !" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Width="150" Height="48" Click="Done_Click" FontSize="20" Background="#FFDBF0D3" FontFamily="Tahoma"/>
+        <Button x:Name="Skip" Content="Skip All" HorizontalAlignment="Left" Margin="179,100,0,0" VerticalAlignment="Top" Width="75" Click="Skip_Click" FontFamily="Tahoma" Background="#FFDEC6D1"/>
+        <TextBlock x:Name="Message" TextWrapping="Wrap" Text="What does your opponent move threatens?" VerticalAlignment="Top" FontSize="22" Width="350" Margin="10,5,10,0" Foreground="#FFC90C0C" FontFamily="Tahoma"/>
+
+    </Grid>
+</Window>
