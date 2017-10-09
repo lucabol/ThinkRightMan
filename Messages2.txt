@@ -1,0 +1,6 @@
+﻿What does your opponent move threatens?
+What are his candidate moves?
+Have you analyzed the variations for ALL candidate moves?
+What are your candidate moves?
+Have you analyzed the variations for ALL candidate moves?
+Have you done a Blunder check?

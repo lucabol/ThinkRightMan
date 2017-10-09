@@ -108,9 +108,12 @@
     <Resource Include="Icons-Land-Vista-Chess-Pawn-Yellow.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Messages.txt">
+    <None Include="Messages2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Messages.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

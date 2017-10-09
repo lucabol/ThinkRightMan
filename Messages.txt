@@ -1,6 +1,4 @@
-﻿What does your opponent move threatens?
-What are his candidate moves?
-Have you analyzed the variations for ALL candidate moves?
-What are your candidate moves?
-Have you analyzed the variations for ALL candidate moves?
-Have you done a Blunder check?
+﻿Update (Threats, Dbacks, Posit)
+Select (MScan, MCand, MOne)
+Verify (RScan, RCand, REval)
+Check (Dbacks, DPosit, DOvReply)
